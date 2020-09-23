@@ -8,7 +8,7 @@ Using LR-parser technique, we perform this part. We take the categorised tokens 
 ## Instructions for compilation & execution:
 open the current dir in terminal<br/>
 follow these instructions then:<br/>
-1.<tt>chmod +x run.sh<br/></tt>
-2.<tt>./run.sh<br/></tt>
+1.<tt>chmod +x run.sh</tt><br/>
+2.<tt>./run.sh</tt></br>
 It is to be noted that the lex file tokenises the program in "<tt>input.txt</tt>" written in LAX(LAnguage eXample) language and the yacc file parses it, if any error is found in the input file, parsing is stopped with an error.<br/>
 For more information on states, Action and Goto elements of the parser, <tt>y.output</tt> file is to be get in reference with.<br/>
