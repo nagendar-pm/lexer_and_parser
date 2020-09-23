@@ -1,3 +1,5 @@
+LAnguage eXample (LAX) is a basic programming language given for the purpose of studying Compilers (here Lexical and Syntax Analysis). It is stated in the Waitegoose book.
+Link for the same is given https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf
 open the current dir in terminal
 follow these instructions then:
 1.chmod +x run.sh
