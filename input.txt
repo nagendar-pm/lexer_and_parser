@@ -1,0 +1,31 @@
+declare a : integer; b : integer
+begin
+a := 8; b := -89; c:= 6.022e23;
+while a < b do
+a := a + 1
+end;
+if not (a>b) then
+declare a is ab : integer begin ab := ab + 4 end; (*procedure*)
+while a < b do
+a := a + 1;
+declare a is ab : integer begin ab := ab + 4 end
+end (* while *)
+end; (* if *)
+
+declare procedure func (a:integer;b:boolean):integer;a:=2
+begin
+a:=4;b:=6;
+while a < b do
+a := a + 1
+end;
+if not (a>b) then
+declare a is ab : integer begin ab := ab + 4 end; (*procedure*)
+while a < b do
+a := a + 1;
+declare a is ab : integer begin ab := ab + 4 end
+end (* while *)
+end (* if *)
+end
+
+end
+
